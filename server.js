@@ -169,7 +169,7 @@ async function play(sock, username, skin){
 		player.inv[8] = Items.diamond_shovel()
 		player.inv[9] = Items.netherrack(10)
 		player.inv[10] = Items.sandstone(10)
-		player.inv[12] = Items.obsidian(64)
+		player.inv[11] = Items.obsidian(64)
 		stat('misc', 'unique_players')
 	}
 	player.interface = null; player.interfaceId = 0
